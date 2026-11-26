@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project architecture
+- Keep LogicVerse as one continuous interactive experience at `/`; do not add separate content routes, so demonstrations and simulator state stay together.
